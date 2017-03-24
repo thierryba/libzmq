@@ -38,6 +38,10 @@
 #ifndef __ZMQ_H_INCLUDED__
 #define __ZMQ_H_INCLUDED__
 
+#ifndef ZMQ_STATIC
+#define ZMQ_STATIC
+#endif
+
 /*  Version macros for compile-time API version detection                     */
 #define ZMQ_VERSION_MAJOR 4
 #define ZMQ_VERSION_MINOR 2
